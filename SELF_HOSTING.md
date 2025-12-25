@@ -77,26 +77,66 @@ ALTER TABLE public.usage_tracking DISABLE ROW LEVEL SECURITY;
 
 ## 第四步：部署 Edge Function
 
-### 4.1 登录 Supabase CLI
+### 4.0 win下安装Supabase CLI
+
+**1. 以管理员身份**打开 PowerShell（在开始菜单搜 PowerShell -> 右键 -> 以管理员身份运行）。
+
+**2. 设置权限**（允许执行脚本），输入以下命令并回车，如果提示确认输入 `Y`：
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+**3. 关闭** 当前那个管理员身份的 PowerShell 窗口。
+
+**4. 正常打开** 一个新的 PowerShell 窗口（**不要**右键选“以管理员身份运行”，直接左键点开就行）。
+
+直接执行安装命令：
+
+```powershell
+irm get.scoop.sh | iex
+```
+
+**5. 添加 Supabase 仓库**：
+
+```powershell
+scoop bucket add supabase https://github.com/supabase/scoop-bucket.git
+```
+
+**6. 安装 Supabase**：
+
+```powershell
+scoop install supabase
+```
+
+**7. 验证**：
+
+```powershell
+supabase --version
+```
+
+
+
+### 4.1 登录 Supabase CLI（需要cd到根目录下）
 
 ```bash
 supabase login
 ```
 
-### 4.2 链接项目
+### 4.2 链接项目（需要cd到根目录下）
 
 ```bash
 supabase link --project-ref <your-project-id>
 ```
 
-### 4.3 配置 Secrets
+### 4.3 配置 Secrets（需要cd到根目录下）
 
 ```bash
 # 添加 SiliconFlow API Key
 supabase secrets set SILICONFLOW_API_KEY=<your-siliconflow-api-key>
 ```
 
-### 4.4 部署函数
+### 4.4 部署函数（需要cd到根目录下）
 
 ```bash
 supabase functions deploy polish-resume --no-verify-jwt
